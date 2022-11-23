@@ -1,0 +1,113 @@
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: orangered;
+}
+.item1{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.item1:hover{
+    width: 300px;    
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    
+}
+.item2:hover{
+    width: 300px;
+    height: 300px;
+}
+.item3{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.item3:hover{
+    width: 300px;    
+}
+.item4{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+.item4:hover{
+    width: 300px;    
+}
+.item5{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.item5:hover{
+    width: 300px;    
+}
+.item6{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+}
+.item6:hover{
+    width: 300px;    
+}
+.item7{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.item7:hover{
+    width: 300px;    
+}
+.one{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 253, 253);
+    transform: rotateZ(45deg);
+}
+.container2{    
+    display: grid;
+    grid-template-columns:250px auto auto;
+    grid-template-rows:150px 150px 150px 150px 150px;
+}
+.itemz{
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(255, 217, 0);
+}
+.itemz1{
+    grid-column: 1/3;
+    background-color: grey;
+}
+
+
+.itemz3{
+    grid-row: 2/5;
+    
+}
+
+.itemz4{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    background-color: rgb(5, 5, 5);
+}
+.itemz5{
+    background-color: grey;
+}
+.itemz7{
+    grid-column: 1/4;
+    background-color: white;
+    cursor: pointer;
+}
